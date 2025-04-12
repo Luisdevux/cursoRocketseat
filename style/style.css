@@ -12,6 +12,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(/assets/MoonStars.svg);
+  --perfil-img-color: rgb(149, 149, 149);
 }
 
 .light{
@@ -22,6 +23,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(/assets/Sun.svg);
+    --perfil-img-color: rgb(51, 51, 51);
 }
 
 body {
@@ -47,7 +49,13 @@ body * {
 
 #profile img {
   width: 112px;
-  border: 2px solid rgb(149, 149, 149);
+  border: 2px solid var(--perfil-img-color);
+  border-radius: 50%;
+}
+
+.light #profile img {
+    width: 112px;
+  border: 2px solid var(--perfil-img-color);
   border-radius: 50%;
 }
 
@@ -60,6 +68,9 @@ body * {
 /* switch */
 #switch {
   position: relative;
+  width: 64px;
+
+  margin: 4px auto;
 }
 
 #switch button {
@@ -68,9 +79,17 @@ body * {
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
+
   position: absolute;
-  right: 0;
+  top: 50%;
+  left: 0;
   z-index: 1;
+  transform: translateY(-50%);
+}
+
+.light #switch button {
+  right: 0;
+  left: initial;
 }
 
 #switch span {
