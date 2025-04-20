@@ -1,6 +1,6 @@
 # 🌐Página Web DevLinks
 ## ✅Objetivo
-Este projeto foi criado com o objetivo de colocar em prática os aprendizados com front end através do curso da rocketseat de html, css e javascript. Com isso foi um projeto um pouco mais elaborado contendo modos de iluminação, responsividade e animações.
+Este projeto foi criado com o objetivo de colocar em prática os aprendizados com front end através do curso da RocketSeat de html, css e javascript. Com isso foi um projeto um pouco mais elaborado contendo modos de iluminação, responsividade e animações.
 
 ## 💻Tecnologias Utilizadas
 ##### -HTML5: Estruturação das páginas.
