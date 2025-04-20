@@ -2,7 +2,7 @@
 ## ✅Objetivo
 Este projeto foi criado com o objetivo de colocar em prática os aprendizados com front end através do curso da RocketSeat de html, css e javascript. Com isso foi um projeto um pouco mais elaborado contendo modos de iluminação, responsividade e animações.
 
-## 💻Tecnologias Utilizadas
+## 🛠️Tecnologias Utilizadas
 ##### -HTML5: Estruturação das páginas.
 ##### -CSS3: Estilização e design responsivo.
 ##### -JavaScript: Funcionalidades interativas no Projeto.
